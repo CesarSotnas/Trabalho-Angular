@@ -1,0 +1,6 @@
+<div class="card" *ngFor="let lista of lista">
+  <img [attr.src]="lista.image" alt="" />
+  <h3 class="titulo">{{ lista["title"] }}</h3>
+  <p class="texto">{{ lista["body"] }}</p>
+  <a href="#">Ler mais</a>
+</div>
